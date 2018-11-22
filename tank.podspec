@@ -18,23 +18,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      ='tank++++++++++++++++.'
-
-  s.subspec 'Base' do |b|
-    b.source_files = 'tank/Classes/Base/**/*'
-  end
-
-  s.subspec 'Category' do |c|
-   c.source_files = 'tank/Classes/Category/**/*'
-  end
-
-  s.subspec 'Network' do |n|
-   n.source_files ='tank/Classes/Network/**/*'
-  end
-
-  s.subspec 'Tool' do |t|
-    t.source_files = 'tank/Classes/Tool/**/*'
-  end
-
   s.homepage         = 'https://github.com/gthszbd/tank'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -44,8 +27,22 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'tank/Classes/**/*'
-  
+  #s.source_files = 'tank/Classes/**/*'
+  s.subspec 'Base' do |b|
+  b.source_files = 'tank/Classes/Base/**/*'
+  end
+
+  s.subspec 'Category' do |c|
+  c.source_files = 'tank/Classes/Category/**/*'
+  end
+
+  s.subspec 'Network' do |n|
+  n.source_files ='tank/Classes/Network/**/*'
+  end
+
+s.subspec 'Tool' do |t|
+t.source_files = 'tank/Classes/Tool/**/*'
+end
   # s.resource_bundles = {
   #   'tank' => ['tank/Assets/*.png']
   # }
