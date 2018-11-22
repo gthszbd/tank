@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tank'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'tank.'
 
 # This description is used to generate tags and improve search results.
@@ -18,6 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      ='tank++++++++++++++++.'
+
+  s.subspec 'Base' do |b|
+    b.source_files = 'tank/Classes/Base'
+  end
+
+  s.subspec 'Category' do |c|
+   b.source_files = 'tank/Classes/Category'
+  end
+
+  s.subspec 'Network' do |n|
+   b.source_files ='tank/Classes/Network'
+  end
+
+  s.subspec 'Tool' do |t|
+    t.source_files = 'tank/Classes/Tool'
+  end
 
   s.homepage         = 'https://github.com/gthszbd/tank'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
