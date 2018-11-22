@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tank'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
   s.summary          = 'tank.'
 
 # This description is used to generate tags and improve search results.
