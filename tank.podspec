@@ -24,11 +24,11 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Category' do |c|
-   b.source_files = 'tank/Classes/Category'
+   c.source_files = 'tank/Classes/Category'
   end
 
   s.subspec 'Network' do |n|
-   b.source_files ='tank/Classes/Network'
+   n.source_files ='tank/Classes/Network'
   end
 
   s.subspec 'Tool' do |t|
