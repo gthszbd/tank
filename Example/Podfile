@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'tank_Example' do
+  pod 'tank', :path => '../'
+
+  target 'tank_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
