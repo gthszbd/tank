@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "HWCar.h"
+#import "HWDog.h"
 
 FOUNDATION_EXPORT double tankVersionNumber;
 FOUNDATION_EXPORT const unsigned char tankVersionString[];

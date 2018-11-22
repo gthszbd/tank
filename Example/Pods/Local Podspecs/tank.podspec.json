@@ -1,9 +1,9 @@
 {
   "name": "tank",
   "version": "0.1.0",
-  "summary": "A short description of tank.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/583925692@qq.com/tank",
+  "summary": "tank.",
+  "description": "tank++++++++++++++++.",
+  "homepage": "https://github.com/gthszbd/tank",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "583925692@qq.com": "583925692@qq.com"
   },
   "source": {
-    "git": "https://github.com/583925692@qq.com/tank.git",
+    "git": "https://github.com/gthszbd/tank.git",
     "tag": "0.1.0"
   },
   "platforms": {
