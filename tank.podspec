@@ -28,17 +28,18 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'tank/Classes/**/*'
-  s.subspec 'Base' do |b|
-  b.source_files = 'tank/Classes/Base/**/*'
-  end
+s.subspec 'Base' do |b|
+b.source_files = 'tank/Classes/Base/**/*'
+end
 
-  s.subspec 'Category' do |c|
-  c.source_files = 'tank/Classes/Category/**/*'
-  end
+s.subspec 'Category' do |c|
+c.source_files = 'tank/Classes/Category/**/*'
+end
 
-  s.subspec 'Network' do |n|
-  n.source_files ='tank/Classes/Network/**/*'
-  end
+s.subspec 'Network' do |n|
+n.source_files = 'tank/Classes/Network/**/*'
+n.dependency 'AFNetworking'
+end
 
 s.subspec 'Tool' do |t|
 t.source_files = 'tank/Classes/Tool/**/*'
