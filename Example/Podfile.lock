@@ -1,0 +1,16 @@
+PODS:
+  - tank (0.1.0)
+
+DEPENDENCIES:
+  - tank (from `../`)
+
+EXTERNAL SOURCES:
+  tank:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  tank: bc0a817f010f934d758dd45ff5999d4b90482a21
+
+PODFILE CHECKSUM: 6806d0463d2cce0da8a936e1d9c4f046b3408a71
+
+COCOAPODS: 1.5.3

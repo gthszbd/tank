@@ -1,0 +1,6 @@
+framework module tank {
+  umbrella header "tank-umbrella.h"
+
+  export *
+  module * { export * }
+}
