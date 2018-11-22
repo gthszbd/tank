@@ -20,19 +20,19 @@ Pod::Spec.new do |s|
   s.description      ='tank++++++++++++++++.'
 
   s.subspec 'Base' do |b|
-    b.source_files = 'tank/Classes/Base'
+    b.source_files = 'tank/Classes/Base/**/*'
   end
 
   s.subspec 'Category' do |c|
-   c.source_files = 'tank/Classes/Category'
+   c.source_files = 'tank/Classes/Category/**/*'
   end
 
   s.subspec 'Network' do |n|
-   n.source_files ='tank/Classes/Network'
+   n.source_files ='tank/Classes/Network/**/*'
   end
 
   s.subspec 'Tool' do |t|
-    t.source_files = 'tank/Classes/Tool'
+    t.source_files = 'tank/Classes/Tool/**/*'
   end
 
   s.homepage         = 'https://github.com/gthszbd/tank'
