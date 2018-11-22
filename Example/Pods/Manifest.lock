@@ -1,15 +1,36 @@
 PODS:
-  - tank (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - tank (0.2.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - tank (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   tank:
     :path: "../"
 
 SPEC CHECKSUMS:
-  tank: 1bc18d194eba3c470669e3b25a84afc3d0ebb052
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  tank: 21ce9a029d2a97371da655f1a21b5d548b5afa5a
 
 PODFILE CHECKSUM: 6806d0463d2cce0da8a936e1d9c4f046b3408a71
 
