@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tank'
-  s.version          = '0.4.1'
+  s.version          = '0.5.0'
   s.summary          = 'tank.'
 
 # This description is used to generate tags and improve search results.
@@ -50,5 +50,5 @@ end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking'
+  
 end
